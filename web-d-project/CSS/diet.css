@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    --dark-green: #0e100b;
+    --button-bg-color:#b7ed73;
+
+    color: white;
+}
+body{
+    background-color: black;
+}
+.gradient-text {
+    background-image: linear-gradient(to right,white, white, #696969 , #bebebe ); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the background applies to text */
+    -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+  }
+
+
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    height: 60px;
+    align-items: center;
+    padding-top: .7rem;
+}
+.logo{
+    display: flex;
+}
+.name{
+    padding-left: .5rem;
+}
+
+.logo p{
+    
+    font-size: 1.6rem;
+    padding-left: .4rem;
+}
+.logo span{
+    font-size: 1.3rem;
+    color: #5f5e5e;
+}
+.logo img{
+    height: 3rem;
+    background-color: var(--button-bg-color);
+    padding: .3rem;
+    border-radius: .5rem;
+    margin-left: 1rem;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #313131;
+    
+    list-style-type: none;
+    height: 50px;
+    align-items: center;
+    
+    border-radius: 2.2rem;
+
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar-items{
+    padding-top: .6rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    height: 70%;
+    font-weight: 100;
+    color: #bdbcbc;
+    border-radius: 2.2rem;
+}
+.nav-bar-items:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    color: black;
+}
+
+.profile i{
+    color: white;
+    font-size: 1.2rem;
+    background-color: #212121;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.profile i:hover{
+    background-color: var(--button-bg-color);
+    color: black;
+}
+.fa-user{
+    margin: 0 2rem 0 2rem ;
+    
+}
+
+
+/* diet- */
+.diet{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.diet h1{
+    font-size: 3.6rem;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+.diet p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.card-lib{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-left: 10%;
+
+}
+.card{
+    background: linear-gradient(to bottom ,#141a0f ,rgb(32, 32, 32));
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.card:hover{
+    background: linear-gradient(to bottom ,#3a4b2c ,rgb(61, 61, 61));
+}
+.card h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.card img{
+    height: 5rem;
+}
+.card button{
+    background-color: #2b2b2b;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: .8rem 3rem;
+    border-radius: .6rem;
+}
+.card button:hover{
+    background-color: var(--button-bg-color);
+    color: black;
+    font: 900;
+}
+.icon{
+    font-size: .9rem;
+}
