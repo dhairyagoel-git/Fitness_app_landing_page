@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Plus+Jakarta+Sans:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    color: white;
+    --button-bg-color:#b7ed73;
+    --dark-green: #0e100b;
+    --heading-color: #5f5e5e;
+}
+body{
+    background: #050505;
+}
+.gradient-text {
+    background-image: linear-gradient(to right,white, #5f5e5e , #292929); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the background applies to text */
+    -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+  }
+  
+
+nav{
+    background-color: white;
+    display: flex;
+    height: 60px;
+    z-index: 19;
+    position: fixed;
+    border-radius: .5rem;
+    top: 1.5rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.1rem;
+    padding-right:  .6rem;
+    width: 94vw;
+}
+nav img{
+    height: 2rem;
+    border-radius: .5rem;
+}
+span{
+    gap: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+span a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+nav span button{
+    height: 2.9rem;
+    padding: .5rem;
+}
+.onebtn{
+    background-color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: black;
+}
+.twobtn{
+    background-color: var(--button-bg-color);
+    padding: .5rem;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    border-radius: .5rem;
+    padding: .6rem;
+}
+.button{
+    gap: 1.5rem;
+}
+.hero{
+    justify-content: center;
+    height: 100vh;
+    
+    background: url(https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    text-align: center;
+
+}
+.hero h1{
+    font-size: 4rem;    
+    color: linear;
+}
+.h1{
+    padding-top: 30vh;
+}
+.hero p{
+    color: white;
+}
+.hero button{
+
+    background: var(--button-bg-color);
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: .8rem;
+    border-radius: .8rem;
+    
+}
+
+/* About us section- */
+.Features{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center  ;
+
+}
+.card-lib{
+    display: flex;
+    gap: 1rem;
+}
+.features-card{
+        background: var(--dark-green);
+        padding: 1rem;
+        padding-top: 1.5rem;
+        height: 9.5rem;
+        width: 14rem;
+        border-radius: .7rem;
+}
+.features-head h1{
+    font-size: 3rem;
+}
+.features-card .fa-file-video{
+    font-size: 3rem;
+    
+    -webkit-box-shadow: 0 0 7px 6px rgba(186,240,274,.2);
+    -moz-box-shadow: 0 0 7px 6px rgba(186,240,274,.2);
+    box-shadow: 0 0 7px 6px rgba(186,240,274,.2);
+}
+.card-lib .one{
+    background-color: #1c2215;
+}
+
+.card-lib .two{
+    background-color: #27251c;
+}
+.card-lib .three{
+    background-color: #0d1112;
+}
+.card-lib .four{
+    background-color: #130f0c;
+}
+.card-lib .one:hover{
+    background-color: #333d27;
+}
+.card-lib .two:hover{
+    background-color: #3d3a2c;
+}
+.card-lib .three:hover{
+    background-color: #253033;
+}
+.card-lib .four:hover{
+    background-color: #3b3027;
+}
+.diet{
+    border-radius: .5rem;
+    height: 2.7rem;
+    padding: .3rem;
+    margin-bottom: 1rem;
+    color: black;
+    background-color: #fde466;
+    -webkit-box-shadow: 0 0 7px 6px rgba(183,239,114,.2);
+    -moz-box-shadow: 0 0 7px 6px rgba(183,239,114,.2);
+    box-shadow: 0 0 7px 6px rgba(183,239,114,.2);
+}
+.fa-dumbbell{
+    font-size: 2.4rem;
+    color: black;
+    background-color: #74d3f1;
+    padding: .4rem .3rem ;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0 0 7px 6px rgba(116,211,241,.2);
+    -moz-box-shadow: 0 0 7px 6px rgba(116,211,241,.2);
+    box-shadow: 0 0 7px 6px rgba(116,211,241,.2);
+}
+.tool{
+    height: 3rem;
+    color: black;
+    background-color: #c27143;
+    padding: .3rem;
+    border-radius: .5rem;
+    margin-bottom: .8rem;
+    -webkit-box-shadow: 0 0 7px 6px rgba(194,113,167,.2);
+    -moz-box-shadow: 0 0 7px 6px rgba(194,113,167,.2);
+    box-shadow: 0 0 7px 6px rgba(194,113,167,.2 );
+}
+
+
+
+
+
+
+
+
+/* Pricing section- */
+.pricing{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.pricing-heading{
+    text-align: center; 
+}
+.pricing div h2{
+    font-size: 3rem;
+    }
+.cards{
+    display: flex;
+    gap: 1.5rem;
+}
+.card{
+    background:  var(--dark-green);
+    opacity: .8;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 22vw;
+}
+.card h4{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}   
+.small{
+    font-size: .7rem;
+}
+.large{
+    font-size: 1.5rem;
+}
+.card .price{
+    padding: .4rem;
+}
+.card ol li{
+    padding: .3rem;
+}
+.card button{
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 1.2rem;
+    width: 100% ;
+    padding: .5rem;
+    font-weight: 400;
+    border-radius: .5rem;
+}
+.card:hover{
+    opacity: 1;
+    background-color: #1e201b;
+}
+
+button:hover{
+    background: var(--button-bg-color);
+    color: black;
+    font-weight: 600;
+}
+
+
+/* Footer tag- */
+.ending{
+    background-color: var(--dark-green);
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+}
+
+.ending img{
+    height: 5rem;
+
+}
+.ending div h1{
+    font-size: 3.8rem;
+}
+.footer-btn{
+    padding: 1rem 2rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border: none;
+    box-shadow: 0 0 20px 8px    rgba(183, 237, 115,.3);
+}
+.footer-btn:hover{
+    font-weight: 700;
+}
+
+.links{
+    height: 7rem;
+}
+.concluding{
+    display: flex;
+    text-align: center;
+    padding: 4rem;
+}
+.team{
+    width: 50vw;
+}
+.team ol li{
+    font-size: .9rem;   
+}
+.right-align{
+    padding-top: 2rem;
+    padding-left: 12rem;
+}
+.links{
+    padding-top: 2rem;
+    
+}
+.links i{
+    padding: .6rem;
+    border: .5px solid white;
+    border-radius: 3rem;
+    margin: 1.5 rem;
+}
+
+.fa-youtube:hover{
+    color: red ;
+    background-color: white;
+}
+.fa-instagram:hover{
+    background-color: purple;
+    color: white;
+}
+.fa-linkedin:hover{
+    background-color: #012538;
+}
+.fa-x-twitter:hover{
+    background-color: white;
+    color: black;
+}

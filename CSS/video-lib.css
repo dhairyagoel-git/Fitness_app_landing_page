@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    --dark-green: #0e100b;
+    --button-bg-color:#b7ed73;
+
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to right,white, white, #696969 , #bebebe ); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the background applies to text */
+    -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+  }
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    height: 60px;
+    align-items: center;
+    padding-top: .7rem;
+}
+.logo{
+    display: flex;
+}
+.name{
+    padding-left: .5rem;
+}
+
+.logo p{
+    
+    font-size: 1.6rem;
+    padding-left: .4rem;
+}
+.logo span{
+    font-size: 1.3rem;
+    color: #5f5e5e;
+}
+.logo img{
+    height: 3rem;
+    background-color: var(--button-bg-color);
+    padding: .3rem;
+    border-radius: .5rem;
+    margin-left: 1rem;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #313131;
+    
+    list-style-type: none;
+    height: 50px;
+    align-items: center;
+    
+    border-radius: 2.2rem;
+
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav-bar-items{
+    padding-top: .6rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    height: 70%;
+    font-weight: 100;
+    color: #bdbcbc;
+    border-radius: 2.2rem;
+}
+.nav-bar-items:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    color: black;
+}
+
+.profile i{
+    color: white;
+    font-size: 1.2rem;
+    background-color: #212121;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.profile i:hover{
+    background-color: var(--button-bg-color);
+    color: black;
+}
+.fa-user{
+    margin: 0 2rem 0 2rem ;
+    
+}
+
+
+/* Video library */
+.video{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.video h1{
+    font-size: 3.6rem;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+.video p{
+    margin-bottom: 3rem;
+
+}
+.card-lib{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    align-content: center;
+    margin: 2rem;
+    margin-left: 7rem;
+}
+.card{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    background: linear-gradient(to bottom ,#141a0f ,rgb(32, 32, 32));
+    font-family: sans-serif;
+    width: 19vw;
+    height:  3.8vw;
+    text-align: left;
+    border-radius: .6rem;
+    padding: .4rem;
+    padding-top: .3rem;
+}
+.card:hover{
+    background: linear-gradient(to bottom ,#37472a ,rgb(53, 53, 53));
+}
+.text{
+    margin-top: .7rem;
+}
+.card img{
+    padding: .4rem;
+    height: 2.4rem;
+    border-radius: .5rem;
+    margin-top: .3rem;
+}
+.card p{
+    opacity: .6;
+    font-size: .9rem;
+}
+.text h3{
+    font-size: 1.1rem;
+}
+.barbell{
+    background-color: #b7ef74;
+}
+.dumbell{
+    background-color: #74d3f1;
+}
+.cardio{
+    background-color: #fd955e;
+}
+.boxing{
+    background-color: #eedb74;
+}
+.pilates{
+    background-color: #f2a2a1;
+}
+.crossfit{
+    background-color: #e2c18f;
+}
+.yoga{
+    background-color: #81efd4;
+}
+.martial-arts{
+    background-color: #a992ed;
+}
+.cycling{
+    background-color: #cbf39a;
+}
+.zumba{
+    background-color: #98dff5;
+}
+.streching{
+    background-color: #f39999;
+    
+}
+.swimming{
+    background-color: #bbb176;
+}
