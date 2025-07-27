@@ -30,7 +30,7 @@ A responsive and modern landing page for a fitness mobile app. Built using **HTM
 ---
 
 ### 📝 Exercise Planner
-![Exercise Planner](./assets/exercises.jpeg)
+![Exercise Planner](./assets/exercies.jpeg)
 
 
 
