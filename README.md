@@ -15,22 +15,22 @@ A responsive and modern landing page for a fitness mobile app. Built using **HTM
 ## 📸 Screenshots
 
 ### 🏋️ Workout Progress Tracker
-![Workout Progress Tracker](./home.png)
+![Workout Progress Tracker](./assets/home.jpeg)
 
 ---
 
 ### 🍽️ Meal Planner
-![Meal Planner](./assets/meal.png)
+![Meal Planner](./assets/meals.jpeg)
 
 ---
 
 ### 🧑‍🏫 Trainer Page
-![Trainer Page](./assets/trainer.png)
+![Trainer Page](./assets/trainer.jpeg)
 
 ---
 
 ### 📝 Exercise Planner
-![Exercise Planner](./assets/exercise.png)
+![Exercise Planner](./assets/exercises.jpeg)
 
 
 
